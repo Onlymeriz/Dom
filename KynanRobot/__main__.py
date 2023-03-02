@@ -87,21 +87,18 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/{OWNER_USERNAME}"
-        ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/{SUPPORT_CHAT}"
+        InlineKeyboardButton(text="ᴘᴇᴍɪʟɪᴋ", url="https://t.me/{OWNER_USERNAME}"
         ),
     ],
     [
         InlineKeyboardButton(text="ʙᴀɴᴛᴜᴀɴ", callback_data="kynan_support"
        ),
-        InlineKeyboardButton(
-            text="ᴅᴏɴᴀsɪ ❤️", callback_data="kynan_own"
-       ),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/kynansupport"
+        ),
     ],
     [
         InlineKeyboardButton(
-            text="ᴛᴀᴍʙᴀʜᴋᴀɴ ᴀᴋᴜ ᴅɪʜᴀᴛɪᴍᴜ ❤️", url="https://t.me/{BOT_USERNAME}?startgroup=true"
+            text="ᴛᴀᴍʙᴀʜᴋᴀɴ ᴀᴋᴜ ᴅɪʜᴀᴛɪᴍᴜ ❤️", url="http://t.me/dominatrbot?startgroup=true"
         ),
      ],
 ]
